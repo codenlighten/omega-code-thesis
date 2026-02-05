@@ -1,0 +1,44 @@
+{
+  "independent": {
+    "mode": "independent",
+    "system_coherence_avg": 0.9999980133253413,
+    "council_cross_coherence_avg": 0.9622405315394861,
+    "cross_federation_coherence_avg": 0.928222574999149,
+    "autonomy_index": 0.07177742500085091,
+    "consensus_index": 0.9962800866916459,
+    "federation_sync_index": 0.9048374180359596,
+    "trust_scores_final": {
+      "council_a": [
+        0.33367383170527515,
+        0.3337358300112467,
+        0.3325903382834783
+      ],
+      "council_b": [
+        0.33367383170527515,
+        0.3337358300112467,
+        0.3325903382834783
+      ]
+    }
+  },
+  "federated": {
+    "mode": "federated",
+    "system_coherence_avg": 0.9999979144163019,
+    "council_cross_coherence_avg": 0.9622111540446401,
+    "cross_federation_coherence_avg": 0.9672475355895256,
+    "autonomy_index": 0.032752464410474344,
+    "consensus_index": 0.996278769533685,
+    "federation_sync_index": 0.9926015544079764,
+    "trust_scores_final": {
+      "council_a": [
+        0.33367383170527515,
+        0.3337358300112467,
+        0.3325903382834783
+      ],
+      "council_b": [
+        0.3336018511457548,
+        0.33374788875594597,
+        0.3326502600982993
+      ]
+    }
+  }
+}

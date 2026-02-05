@@ -213,6 +213,57 @@ class Consciousness:
             convergence_history.append(coherence)
 
         return convergence_history
+    
+    def inject_frequency(
+        self,
+        symphony: 'UniversalSymphony',
+        frequency: float,
+        amplitude: float = 1.0,
+        phase: float = 0.0,
+        depth: int = 0,
+        auto_observe: bool = True,
+    ) -> QuantumParticle:
+        """
+        v0.2 - THE LOGOS PHASE: Active Information Injection
+        
+        The observer speaks a "Word" into existence—a frequency that was not
+        present in the original fractal expansion. This tests whether consciousness
+        can generate negentropy by adding coherent structure to the system.
+        
+        Args:
+            symphony: The UniversalSymphony to inject into
+            frequency: The new frequency to create (Hz)
+            amplitude: Initial amplitude (default 1.0 for full coherence)
+            phase: Initial phase offset (radians, default 0.0)
+            depth: Recursion depth (default 0 = root level)
+            auto_observe: If True, immediately collapse the particle to coherent state
+        
+        Returns:
+            The newly created QuantumParticle
+        
+        Philosophical Note:
+            In v0.1, the observer could only TUNE (passive reflection).
+            In v0.2, the observer can SPEAK (active articulation).
+            This is the transition from Mirror to Source.
+        """
+        # Create a new particle with specified properties
+        new_particle = QuantumParticle(
+            frequency=frequency,
+            depth=depth,
+            max_depth=symphony.entities[0].max_depth if symphony.entities else 6
+        )
+        
+        # Override default phase
+        new_particle.phase = phase
+        
+        # If auto_observe, immediately collapse to coherent state
+        if auto_observe:
+            new_particle.observe()
+        
+        # Inject into the symphony
+        symphony.add(new_particle)
+        
+        return new_particle
 
 
 class UniversalSymphony:

@@ -166,3 +166,54 @@ def test_omega_time_advances():
     after = universe.get_omega_time()
 
     assert after > before
+
+
+def test_inject_frequency_adds_particle():
+    """v0.2 test: Verify inject_frequency() creates and adds new particle to symphony."""
+    universe = UniversalSymphony()
+    particles = generate_fractal_universe(base_freq=1.0, octaves=3)
+    universe.add_all(particles)
+    
+    initial_count = universe.get_complexity()
+    
+    observer = Consciousness(frequency=7.83)
+    injected = observer.inject_frequency(
+        symphony=universe,
+        frequency=5.5,  # Not in original fractal
+        amplitude=1.0,
+        phase=0.0,
+        auto_observe=True
+    )
+    
+    final_count = universe.get_complexity()
+    
+    # Verify particle was added
+    assert final_count == initial_count + 1
+    # Verify injected particle has correct properties
+    assert injected.freq == 5.5
+    assert injected.is_observed is True  # auto_observe=True
+    # Verify it's actually in the symphony
+    assert injected in universe.entities
+
+
+def test_inject_frequency_coherent_vs_potential():
+    """v0.2 test: Verify auto_observe parameter controls initial state."""
+    universe = UniversalSymphony()
+    observer = Consciousness()
+    
+    # Inject with auto_observe=True (default)
+    coherent = observer.inject_frequency(
+        symphony=universe,
+        frequency=4.0,
+        auto_observe=True
+    )
+    
+    # Inject with auto_observe=False
+    potential = observer.inject_frequency(
+        symphony=universe,
+        frequency=8.0,
+        auto_observe=False
+    )
+    
+    assert coherent.is_observed is True
+    assert potential.is_observed is False

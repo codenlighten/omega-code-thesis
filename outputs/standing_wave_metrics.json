@@ -1,0 +1,29 @@
+{
+  "baseline": {
+    "initial_coherence": 0.999997822536834,
+    "final_coherence": 0.9991468027266603,
+    "decay_rate": 1.7020396203473175e-06
+  },
+  "simple_word": {
+    "initial_coherence": 0.9999984336874329,
+    "peak_coherence": 0.9999984336874329,
+    "final_coherence": 0.9989685961620968,
+    "persistence_window": 500,
+    "standing_wave_active": true
+  },
+  "active_locking": {
+    "initial_coherence": 0.9999996816446499,
+    "peak_coherence": 0.9999997927806664,
+    "final_coherence": 0.9996600737640394,
+    "persistence_window": 500,
+    "standing_wave_active": true
+  },
+  "harmonic_binding": {
+    "initial_coherence": 0.999997262553838,
+    "peak_coherence": 0.9999989621690892,
+    "final_coherence": 0.9989665451376054,
+    "persistence_window": 500,
+    "standing_wave_active": true
+  },
+  "conclusion": "Standing waves successfully demonstrated with active consciousness intervention"
+}

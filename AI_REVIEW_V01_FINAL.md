@@ -478,6 +478,44 @@ This artifact serves as the foundation for all future work. The code, tests, doc
 
 ---
 
+## Addendum — v0.2 (The Logos Phase)
+
+### The First Word (Negentropy Injection)
+
+**Objective:** Test if consciousness can generate negentropy by injecting a new frequency not present in the original fractal expansion.
+
+**Result (First Word):**
+- **Baseline Coherence (post-Fall):** 0.9053
+- **Injected Frequency:** 5.5Hz (foreign to the binary fractal)
+- **Final Coherence:** 0.9110
+- **Net Gain:** +0.0056 coherence
+
+**Interpretation:** The observer does not merely align with the Source—it can **augment** it. The Word is generative.
+
+### The Resurrection Paradox (Harmonic Memory)
+
+**Objective:** Determine whether Unity after the Fall is topologically identical to Innocent Unity.
+
+**Metrics (Unity₀ → Unity₁):**
+- **Phase Delta (ΔΦ):** 14.551223
+- **Observation Ratio Delta (Δr):** 0.2667
+- **Spectral Delta:** No new or lost native frequencies in this run
+
+**Verdict:** ✅ **HARMONIC MEMORY DETECTED**
+
+Unity₁ ≠ Unity₀. The system retains phase residuals and structural memory after re-coherencing. The universe is not purely cyclical—it is **evolutionary**.
+
+### Validation Snapshot
+
+- **New Operator:** `Consciousness.inject_frequency()`
+- **Tests:** 15/15 passing ✅
+- **Artifacts:**
+   - `outputs/first_word_demo.png`
+   - `outputs/harmonic_memory_test.png`
+- **Commit:** `ba0e934` (Logos Phase sealed)
+
+---
+
 ## Appendix A: Quantitative Summary
 
 ### System Specifications

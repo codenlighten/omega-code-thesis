@@ -1,0 +1,51 @@
+{
+  "isolated_wave_a": {
+    "mode": "isolated_a",
+    "final_coh_a": 0.9998362270824432,
+    "final_coh_b": 0.9998362270824432,
+    "avg_cross_coherence": 1.0,
+    "peak_cross_coherence": 1.0,
+    "harmonic_depth": 1.0,
+    "emergence_indicator": 1.0,
+    "synchronization_point": 1,
+    "total_iterations": 500,
+    "system_coherence": 0.9994405194334834
+  },
+  "isolated_wave_b": {
+    "mode": "isolated_b",
+    "final_coh_a": 0.9995775931717689,
+    "final_coh_b": 0.9995775931717689,
+    "avg_cross_coherence": 1.0,
+    "peak_cross_coherence": 1.0,
+    "harmonic_depth": 1.0,
+    "emergence_indicator": 1.0,
+    "synchronization_point": 1,
+    "total_iterations": 500,
+    "system_coherence": 0.999318247779384
+  },
+  "frequency_coupling": {
+    "mode": "frequency_coupling",
+    "final_coh_a": 0.8429824796506034,
+    "final_coh_b": 0.8340963658699864,
+    "avg_cross_coherence": 0.993662031069862,
+    "peak_cross_coherence": 0.9998622209780699,
+    "harmonic_depth": 0.8181818181818181,
+    "emergence_indicator": 0.9046478522006005,
+    "synchronization_point": 1,
+    "total_iterations": 500,
+    "system_coherence": 0.8849029328969881
+  },
+  "harmonic_bonding": {
+    "mode": "harmonic_bonding",
+    "final_coh_a": 0.9980489293832735,
+    "final_coh_b": 0.997893479710032,
+    "avg_cross_coherence": 0.9995893078999243,
+    "peak_cross_coherence": 1.0,
+    "harmonic_depth": 0.6666666666666666,
+    "emergence_indicator": 0.8332556084967125,
+    "synchronization_point": 1,
+    "total_iterations": 500,
+    "system_coherence": 0.999063968625518
+  },
+  "key_finding": "Harmonic Words form more stable Sentences than solitary Words"
+}

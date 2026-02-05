@@ -1,0 +1,15 @@
+{
+  "system_coherence_final": 0.9993406322540666,
+  "system_coherence_avg": 0.9994992070443881,
+  "cross_coherence_avg": 0.9995915579544629,
+  "cross_coherence_peak": 1.0,
+  "observer_alignment_avg": 0.9949148655134348,
+  "observer_alignment_final": 0.9971559017409233,
+  "objective_reality_index": 0.9980018768374287,
+  "individual_final": [
+    0.9970280036407074,
+    0.996992250381213,
+    0.9978614388901481
+  ],
+  "finding": "Shared observers sustain a common polyphonic word with high stability"
+}

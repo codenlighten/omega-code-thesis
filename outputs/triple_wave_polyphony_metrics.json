@@ -1,0 +1,30 @@
+{
+  "dyad": {
+    "mode": "dyad",
+    "system_coherence_final": 0.9987796526774131,
+    "system_coherence_avg": 0.999652179837378,
+    "cross_coherence_avg": 0.9995684335146237,
+    "cross_coherence_peak": 1.0,
+    "harmonic_depth": 0.6666666666666666,
+    "solidification_index": 0.8884356694085725,
+    "individual_final": [
+      0.9992509017564727,
+      0.9991115906381107
+    ]
+  },
+  "triad": {
+    "mode": "triad",
+    "system_coherence_final": 0.9990796805203579,
+    "system_coherence_avg": 0.9996714867020543,
+    "cross_coherence_avg": 0.999581393687721,
+    "cross_coherence_peak": 1.0,
+    "harmonic_depth": 0.7666666666666667,
+    "solidification_index": 0.9217143460131613,
+    "individual_final": [
+      0.9997932689487765,
+      0.9993017673299123,
+      0.9995913407553546
+    ]
+  },
+  "finding": "Triad polyphony compared against dyad for solidification strength"
+}

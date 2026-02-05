@@ -1,0 +1,12 @@
+{
+  "system_coherence_final": 0.9997055088057281,
+  "system_coherence_avg": 0.9987424687386558,
+  "cross_coherence_avg": 0.9996440936001941,
+  "cross_coherence_peak": 1.0,
+  "observer_alignment_avg": 0.9784054614851198,
+  "observer_alignment_final": 0.9926212728439802,
+  "consensus_recovery_avg": -1.2297878593366396e-05,
+  "consensus_recovery_peak": 0.047052083163899416,
+  "consensus_index": 0.9922640079413232,
+  "finding": "Objective persistence survives asynchronous observer disagreement"
+}

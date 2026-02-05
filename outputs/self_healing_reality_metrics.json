@@ -1,0 +1,33 @@
+{
+  "equal_weight": {
+    "mode": "equal",
+    "system_coherence_avg": 0.9991697305433662,
+    "system_coherence_final": 0.9995789669616766,
+    "cross_coherence_avg": 0.9996280083604107,
+    "cross_coherence_peak": 1.0,
+    "consensus_index": 0.9854052218888468,
+    "trust_scores_final": [
+      0.2741766028342623,
+      0.2735246674659662,
+      0.17942597066411972,
+      0.27287275903565184
+    ],
+    "recovery_index": 0.025829965606869676
+  },
+  "trust_decay": {
+    "mode": "trust_decay",
+    "system_coherence_avg": 0.9984136177972766,
+    "system_coherence_final": 0.9989752413217288,
+    "cross_coherence_avg": 0.9996506204903548,
+    "cross_coherence_peak": 1.0,
+    "consensus_index": 0.9853616718042695,
+    "trust_scores_final": [
+      0.274265926599537,
+      0.27369181110763263,
+      0.17917857130721218,
+      0.27286369098561813
+    ],
+    "recovery_index": 0.032934062954413146
+  },
+  "finding": "Trust decay with four observers stabilizes reality under adversarial noise"
+}

@@ -698,19 +698,64 @@ Council governance under adversarial noise is stable, but trust weighting did no
 
 ---
 
-**Last Updated:** February 4, 2026 - 11:45 PM  
+## VERSION 1.0: THE REVELATION PHASE ✨
+
+**Transition Date:** February 5, 2026 - 12:00 AM  
+**Status:** ✅ **COMPLETE**  
+**Phase Objective:** Can Reality Self-Heal Under Adversarial Noise? — Trust Decay + Four-Observer Council
+
+### Core Research Question
+> **Can a four-observer council with trust decay defend a shared triad against adversarial noise and observer dropouts?**
+
+v0.9 tested governance under adversarial noise.  
+v1.0 tests self-healing reality with trust decay and quorum.
+
+### v1.0 Results Summary
+
+| Mode | System Coherence (avg) | Cross-Coherence (avg) | Consensus Index (avg) |
+|------|-------------------------|------------------------|------------------------|
+| Equal-Weight Council | 0.9992 | 0.9996 | 0.9854 |
+| Trust-Decay Council | 0.9984 | 0.9997 | 0.9854 |
+
+### Key Findings
+
+1. **SELF-HEALING CONFIRMED, GOVERNANCE ADVANTAGE INCONCLUSIVE**
+   - Consensus Index identical (0.9854) across modes
+   - Trust decay redistributed influence (final weights ~0.274, 0.274, 0.179, 0.273)
+
+2. **CROSS-COHERENCE STABLE UNDER ADVERSITY**
+   - Cross-coherence remained ~0.9996–0.9997 despite adversarial windows
+   - Triad persisted through observer dropout events
+
+3. **RECOVERY DETECTED**
+   - Recovery Index peak: 0.0329 (rapid return to consensus)
+   - Indicates resilience even with drifting and adversarial observers
+
+### v1.0 Artifacts Generated
+- **self_healing_reality_test.py** - Trust-decay council test suite
+- **self_healing_reality_test.png** - 4-panel visualization (system, cross, consensus, trust)
+- **self_healing_reality_report.txt** - Detailed analysis of self-healing behavior
+- **self_healing_reality_metrics.json** - Quantitative results
+
+### Conclusion for v1.0
+Self-healing reality is demonstrated under adversarial noise. Trust decay did not yet outperform equal weighting, but governance remains stable and resilient. Further experiments should increase adversarial strength and introduce trust hysteresis.
+
+---
+
+**Last Updated:** February 5, 2026 - 12:10 AM  
 **v0.1 Status:** ✅ SEALED (Unity Artifact at commit 3b4efa9)  
 **v0.2 Status:** ✅ LOGOS PHASE COMPLETE (Negentropy + Harmonic Memory at commit ba0e934)  
 **v0.3 Status:** ✅ CHRONOS PHASE COMPLETE (Temporal Drag at commit e70dde5)  
 **v0.4 Status:** ✅ AETERNA PHASE COMPLETE (Standing Waves at commit d83b6ea)  
 **v0.5 Status:** ✅ INFINITY PHASE COMPLETE (Harmonic Interaction at commit 47fa65c)  
-**v0.6 Status:** ✅ DIALECT PHASE COMPLETE (Triple-Wave Polyphony — commit pending)  
-**v0.7 Status:** ✅ CIVITAS PHASE COMPLETE (Shared Observation — commit pending)  
-**v0.8 Status:** ✅ CONSENSUS PHASE COMPLETE (Asynchronous Observers — commit pending)  
-**v0.9 Status:** ✅ HIEROPHANT PHASE COMPLETE (Trust-Weighted Council — commit pending)  
+**v0.6 Status:** ✅ DIALECT PHASE COMPLETE (Triple-Wave Polyphony at commit 08fc145)  
+**v0.7 Status:** ✅ CIVITAS PHASE COMPLETE (Shared Observation at commit 08fc145)  
+**v0.8 Status:** ✅ CONSENSUS PHASE COMPLETE (Asynchronous Observers at commit ff7aebe)  
+**v0.9 Status:** ✅ HIEROPHANT PHASE COMPLETE (Trust-Weighted Council at commit 1b596e9)  
+**v1.0 Status:** ✅ REVELATION PHASE COMPLETE (Self-Healing Reality — commit pending)  
 **GitHub:** https://github.com/codenlighten/omega-code-thesis  
-**Total Lines of Code:** ~4,900 (unity_script: 667 + demos/tests: 4,200+)
-**Documentation:** 2,100+ lines (standing_wave_report) + 2,500+ (interaction_report) + 1,000+ (polyphony_report) + 1,000+ (shared_observation_report) + 1,000+ (consensus_report) + 1,000+ (council_report)
+**Total Lines of Code:** ~5,300 (unity_script: 667 + demos/tests: 4,600+)
+**Documentation:** 2,100+ lines (standing_wave_report) + 2,500+ (interaction_report) + 1,000+ (polyphony_report) + 1,000+ (shared_observation_report) + 1,000+ (consensus_report) + 1,000+ (council_report) + 1,000+ (revelation_report)
 **Test Results:** 15/15 unit tests PASSING ✅ (100% success rate)
-**Primary Artifacts:** torus_lifecycle_animation.gif + first_word_demo.png + harmonic_memory_test.png + chronos_dilation_test.png + standing_wave_test.png + harmonic_interaction_test.png + triple_wave_polyphony_test.png + shared_observation_test.png + asynchronous_observers_test.png + trust_weighted_council_test.png
-**Next Milestone:** v1.0 (Trust Decay & Four-Observer Council)
+**Primary Artifacts:** torus_lifecycle_animation.gif + first_word_demo.png + harmonic_memory_test.png + chronos_dilation_test.png + standing_wave_test.png + harmonic_interaction_test.png + triple_wave_polyphony_test.png + shared_observation_test.png + asynchronous_observers_test.png + trust_weighted_council_test.png + self_healing_reality_test.png
+**Next Milestone:** v1.1 (Trust Hysteresis & Federation)

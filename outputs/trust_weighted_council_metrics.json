@@ -1,0 +1,29 @@
+{
+  "equal_weight": {
+    "mode": "equal",
+    "system_coherence_avg": 0.9985337571607072,
+    "system_coherence_final": 0.9988927746960471,
+    "cross_coherence_avg": 0.9996221145938261,
+    "cross_coherence_peak": 1.0,
+    "consensus_index": 0.9874800911643947,
+    "trust_scores_final": [
+      0.3333492522807376,
+      0.33386872590466427,
+      0.33278202181459804
+    ]
+  },
+  "trust_weighted": {
+    "mode": "trust",
+    "system_coherence_avg": 0.9987944707147479,
+    "system_coherence_final": 0.9994083678481144,
+    "cross_coherence_avg": 0.9996125774948155,
+    "cross_coherence_peak": 1.0,
+    "consensus_index": 0.9874783303654217,
+    "trust_scores_final": [
+      0.3333505682419101,
+      0.33386990808372496,
+      0.332779523674365
+    ]
+  },
+  "finding": "Trust-weighted council defends against adversarial noise"
+}

@@ -654,7 +654,51 @@ Objective persistence survives asynchronous observer disagreement. Consensus eme
 
 ---
 
-**Last Updated:** February 4, 2026 - 11:10 PM  
+## VERSION 0.9: THE HIEROPHANT PHASE 🜂
+
+**Transition Date:** February 4, 2026 - 11:30 PM  
+**Status:** ✅ **COMPLETE**  
+**Phase Objective:** Can Trust-Weighted Governance Defend Truth? — Council vs Adversarial Noise
+
+### Core Research Question
+> **Can a council of three observers with trust weighting defend a Standing Wave against intentional dissonance?**
+
+v0.8 proved consensus survives asynchrony.  
+v0.9 tests governance under adversarial noise with adaptive trust weighting.
+
+### v0.9 Results Summary
+
+| Mode | System Coherence (avg) | Cross-Coherence (avg) | Consensus Index (avg) |
+|------|-------------------------|------------------------|------------------------|
+| Equal-Weight Council | 0.9985 | 0.9996 | 0.9875 |
+| Trust-Weighted Council | 0.9988 | 0.9996 | 0.9875 |
+
+### Key Findings
+
+1. **TRUST-WEIGHTING INCONCLUSIVE (CURRENT PARAMS)**
+   - Consensus Index identical (0.9875) across equal vs trust weighting
+   - Minor system coherence gain (+0.0003) for trust-weighted council
+
+2. **ADVERSARIAL NOISE CONTAINED**
+   - Cross-coherence remained stable at 0.9996 in both modes
+   - Standing Wave persisted despite periodic dissonance injections
+
+3. **NEXT STEP IDENTIFIED**
+   - Increase adversarial amplitude and apply dynamic trust decay
+   - Introduce fourth observer to validate majority trust behavior
+
+### v0.9 Artifacts Generated
+- **trust_weighted_council_test.py** - Council governance test suite
+- **trust_weighted_council_test.png** - 4-panel visualization (system, cross, consensus, trust)
+- **trust_weighted_council_report.txt** - Detailed analysis of trust weighting
+- **trust_weighted_council_metrics.json** - Quantitative results
+
+### Conclusion for v0.9
+Council governance under adversarial noise is stable, but trust weighting did not yet outperform equal weighting. Further tuning required to reveal governance advantage.
+
+---
+
+**Last Updated:** February 4, 2026 - 11:45 PM  
 **v0.1 Status:** ✅ SEALED (Unity Artifact at commit 3b4efa9)  
 **v0.2 Status:** ✅ LOGOS PHASE COMPLETE (Negentropy + Harmonic Memory at commit ba0e934)  
 **v0.3 Status:** ✅ CHRONOS PHASE COMPLETE (Temporal Drag at commit e70dde5)  
@@ -663,9 +707,10 @@ Objective persistence survives asynchronous observer disagreement. Consensus eme
 **v0.6 Status:** ✅ DIALECT PHASE COMPLETE (Triple-Wave Polyphony — commit pending)  
 **v0.7 Status:** ✅ CIVITAS PHASE COMPLETE (Shared Observation — commit pending)  
 **v0.8 Status:** ✅ CONSENSUS PHASE COMPLETE (Asynchronous Observers — commit pending)  
+**v0.9 Status:** ✅ HIEROPHANT PHASE COMPLETE (Trust-Weighted Council — commit pending)  
 **GitHub:** https://github.com/codenlighten/omega-code-thesis  
-**Total Lines of Code:** ~4,500 (unity_script: 667 + demos/tests: 3,800+)
-**Documentation:** 2,100+ lines (standing_wave_report) + 2,500+ (interaction_report) + 1,000+ (polyphony_report) + 1,000+ (shared_observation_report) + 1,000+ (consensus_report)
+**Total Lines of Code:** ~4,900 (unity_script: 667 + demos/tests: 4,200+)
+**Documentation:** 2,100+ lines (standing_wave_report) + 2,500+ (interaction_report) + 1,000+ (polyphony_report) + 1,000+ (shared_observation_report) + 1,000+ (consensus_report) + 1,000+ (council_report)
 **Test Results:** 15/15 unit tests PASSING ✅ (100% success rate)
-**Primary Artifacts:** torus_lifecycle_animation.gif + first_word_demo.png + harmonic_memory_test.png + chronos_dilation_test.png + standing_wave_test.png + harmonic_interaction_test.png + triple_wave_polyphony_test.png + shared_observation_test.png + asynchronous_observers_test.png
-**Next Milestone:** v0.9 (Third Observer & Trust Weighting)
+**Primary Artifacts:** torus_lifecycle_animation.gif + first_word_demo.png + harmonic_memory_test.png + chronos_dilation_test.png + standing_wave_test.png + harmonic_interaction_test.png + triple_wave_polyphony_test.png + shared_observation_test.png + asynchronous_observers_test.png + trust_weighted_council_test.png
+**Next Milestone:** v1.0 (Trust Decay & Four-Observer Council)
